@@ -74,3 +74,34 @@
 // } else {
 //   console.log("0 teke o kom");
 // }
+// let names = ['arif','remal', 'karim', 'hablu']
+
+// names.pop()
+// console.log(names);
+
+// Loop start
+
+// for (i= 0; i <= 10; i++ ){
+//     console.log(i);
+// }
+// let temp = [];
+// let numbers = [1,2,3,4,5,6,7,9]
+// for(i=0; i<=numbers.length; i++){
+//     var element = numbers[i]
+//     if(element % 2==0){
+//         temp.push(element)
+//         // console.log(temp);
+       
+//     }
+//     // console.log(temp);
+// }
+// console.log(temp);
+
+
+let friends = ['maki','robin','arif','remal','rakin'];
+for (i=0; i<friends.length; i++){
+    let element = friends[i]
+    if (element == 'mahi') {
+        console.log('mahi');
+    }
+}
