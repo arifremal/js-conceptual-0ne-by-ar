@@ -39,19 +39,26 @@
 // let miles = kmtomile(12);
 // console.log(miles);
 
-function workout (values){
-    let vicepwok = ['cable crodd','bicep','bujina']
-    let cestworkout = ['ceestfly','chest press']
-    if  (values=== 'bicep'){
-        return vicepwok
-    } else if (values=== 'chest press') {
-        return cestworkout;
+// function workout (values){
+//     let vicepwok = ['cable crodd','bicep','bujina']
+//     let cestworkout = ['ceestfly','chest press']
+//     if  (values=== 'bicep'){
+//         return vicepwok
+//     } else if (values=== 'chest press') {
+//         return cestworkout;
 
-    } else{
-        return 'wrong keyord'
-    }
+//     } else{
+//         return 'wrong keyord'
+//     }
 
-}
+// }
 
-let workoutPlan = workout('biceps')
-console.log(workoutPlan);
+// let workoutPlan = workout('biceps')
+// console.log(workoutPlan);
+
+const arr = ["apple", "bananas", "cherry", "date"];
+const longestString = arr.reduce((acc, current) => {
+  return current.length > acc.length ? current : acc;
+}, "");
+
+console.log(longestString); // "banana"
